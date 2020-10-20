@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:id="@+id/imgFoto"/>
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="-10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Nombre completo1"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="25sp"
+            />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="..."
+            android:gravity="right"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="58 minutos"
+        android:layout_gravity="center"
+        android:textSize="10sp"
+        android:textColor="#040404"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/txtdesc"
+        android:layout_width="390dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:text="hy guys"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20dp" />
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:id="@+id/imgFoto2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/mmmm"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            />
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="Me gusta"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"/>
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/cccc"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"/>
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="Comentar"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/nnnn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"/>
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="Compartir"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/trespointsa"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+
+        android:textSize="5dp"
+        android:background="#FFC3C4C3"
+
+        />
+
+</LinearLayout>
